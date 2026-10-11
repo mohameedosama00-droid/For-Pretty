@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#fff4f7" />
+  <title>A tiny hello 🌷</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="ambient ambient-one"></div>
+  <div class="ambient ambient-two"></div>
+  <div class="progress" id="progress"></div>
+
+  <main>
+    <section class="screen hero" id="hello">
+      <div class="eyebrow"><span class="sparkle">✦</span> a little something for you</div>
+      <h1>Hi, <span>pretty.</span></h1>
+      <p class="subtle">I made this tiny corner of the internet just for you.</p>
+      <a class="scroll-cue" href="#eyes" aria-label="Scroll to the next message">
+        <span>there's more</span><span class="arrow">↓</span>
+      </a>
+      <div class="flower flower-hero">✿</div>
+    </section>
+
+    <section class="screen eyes" id="eyes">
+      <div class="mini-heart">♡</div>
+      <p class="section-kicker">a small confession</p>
+      <h2>I'm falling for<br><em>your eyes.</em> 😚</h2>
+      <p class="message">There's something about them that makes a simple hello feel like the beginning of a good story.</p>
+      <a class="scroll-cue" href="#question" aria-label="Scroll to the question">
+        <span>one tiny question</span><span class="arrow">↓</span>
+      </a>
+      <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+    </section>
+
+    <section class="screen question" id="question">
+      <div class="rose">🌹</div>
+      <p class="section-kicker">so, here goes...</p>
+      <h2>Would you like<br>to be my friend?</h2>
+      <p class="message">No pressure at all — I just thought it'd be lovely to get to know you. ✨</p>
+      <div class="buttons">
+        <button class="yes-button" id="yesBtn">Yes, let's! <span>♡</span></button>
+        <button class="no-button" id="noBtn">No</button>
+      </div>
+      <p class="tiny-note" id="tinyNote">Choose wisely… just kidding (kind of) 🙈</p>
+    </section>
+
+    <section class="screen finale" id="finale" hidden>
+      <div class="confetti-heart">💗</div>
+      <p class="section-kicker">well, this made me smile</p>
+      <h2>Then let's make<br><em>a little story.</em></h2>
+      <div class="letter">
+        <p>Hey you,</p>
+        <p>I don't know where this little hello will lead, but I'd love to find out. Maybe we'll share silly jokes, discover our favorite things, and turn ordinary conversations into the best part of the day.</p>
+        <p>No big promises, no pressure — just two people getting to know each other, one conversation at a time. 🌷</p>
+        <p class="signature">P.S. I'm really glad you clicked yes. <span>♡</span></p>
+      </div>
+      <button class="restart-button" id="restartBtn">Read it again ↗</button>
+    </section>
+  </main>
+
+  <footer>made with a little courage & a lot of pink <span>♡</span></footer>
+  <script src="script.js"></script>
+</body>
+</html>
